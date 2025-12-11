@@ -1,0 +1,13 @@
+timeline = Timeline()
+photon = Photon(frequency, state, decoherence rate(maybe))
+spg = SinglePhotonGenerator(name : str, timeline, rate, photon)
+spdc = Crystal(name,timeline, resonant frequency, pair generation rate, entanglement loss rate)
+Unit = Memory(arguments as per raghavan sirs metrics, timeline)
+all other class instances here
+
+process_i = Process(object, activation function)
+Event_i = Event(time of process ocurring : int, process_i)
+timeline.schedule(event_i)
+
+timeline.run()
+
